@@ -88,14 +88,6 @@ char *pcValue[])
 
 	uint32_t i = 0;
 
-//	if (iIndex == 0)
-//	{
-//		//turning the LED lights off
-//		HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, GPIO_PIN_RESET);
-//		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-//		HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
-//	}
-
 	for (i = 0; i < iNumParams; i++)
 	{
 		if (strcmp(pcParam[i], "led") == 0)
@@ -129,13 +121,13 @@ char *pcValue[])
 		{
 			if (strcmp(pcValue[i], "1") == 0)
 			{
-				setPWM(htim3, TIM_CHANNEL_2, 15341, 7670); //440Hz
+				setPWM(htim3, TIM_CHANNEL_2, 13636, 6818); //440Hz
 			}
 
 			else if (strcmp(pcValue[i], "2") == 0)
 			{
 
-				setPWM(htim3, TIM_CHANNEL_2, 25000, 7670); //440Hz
+				setPWM(htim3, TIM_CHANNEL_2, 25000, 6818);
 
 			}
 			else if (strcmp(pcValue[i], "3") == 0)
