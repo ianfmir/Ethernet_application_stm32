@@ -5,9 +5,9 @@ This application stablish an ethernet communication between one [NUCELO-F767ZI](
 This API was developed in August 2021 by Bruno Guimarães Bitencourt and Ian Fernandes Miranda as an assignment for the discipline of Embedded Systems Programming at the Federal University of Minas Gerais (UFMG). The classes were taught by professor Ricardo de Oliveira Duarte.
 
 # Features
-Markup: * Create a html web server 
-        * Turn on/off all three embedded LEDs
-        * Turn on/off one external buzzer with two different pitches
+* Create a html web server 
+* Turn on/off all three embedded LEDs
+* Turn on/off one external buzzer with two different pitches
 
 
 [brunogbitencourt@ufmg.br](mailto:brunogbitencourt@ufmg.br), [ianfm@ufmg.br](mailto:ianfm@ufmg.br)
