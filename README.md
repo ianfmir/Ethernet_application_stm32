@@ -11,8 +11,8 @@ This API was developed in August 2021 by Bruno Guimarães Bitencourt and Ian Fer
 
 ![alt-text](https://github.com/ianfmir/Ethernet_application_stm32/blob/main/Test_LEDs.gif)
 
-# Videos
-The videos testing the appliaction are available at [youtube](https://youtube.com/playlist?list=PL8WsQAWlkRIEzk8TU-czDBvDHBigMxnuq)
+# Tests
+The videos testing the application are available at [youtube](https://youtube.com/playlist?list=PL8WsQAWlkRIEzk8TU-czDBvDHBigMxnuq)
 
 
 [brunogbitencourt@ufmg.br](mailto:brunogbitencourt@ufmg.br), [ianfm@ufmg.br](mailto:ianfm@ufmg.br)
