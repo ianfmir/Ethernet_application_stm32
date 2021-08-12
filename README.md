@@ -6,8 +6,8 @@ This API was developed in August 2021 by Bruno Guimarães Bitencourt and Ian Fer
 
 # Features
 * Create a html web server 
-* Turn on/off all three embedded LEDs
-* Turn on/off one external buzzer with two different pitches
+* Turn on/off all three embedded LEDs via ethernet
+* Turn on/off one external buzzer with two different pitches via ethernet
 
 ![alt-text](https://github.com/ianfmir/Ethernet_application_stm32/blob/main/Test_LEDs.gif)
 
