@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+
+	</style>
+</head>
+
+
+<body>
+
+	<div class="header">
+		<h2><center>Programacao de Sistemas Embarcados</center></h2>
+		<p><b>Grupo:</b> Bruno Guimaraes Bitencourt e       Ian Fernandes<br>
+			<b>Professor:</b> Ricardo Oliveira Duarte</p>
+		</div>
+
+		<div class="topnav" id="myTopnav">
+			<a href="#home" class="active">Aplicacao Ethernet</a>
+		</div>	
+
+		<form method="get" action="/leds.cgi">
+		<div class="row">
+			<div class="column">
+				<h2>LED 01: </h2>
+				<p>Funcao: Acender LED verde da Placa</p>
+				<label class="switch">
+					<input type="submit" name="led" value="1">
+				</label>
+			</div>
+
+			<div class="column">
+				<h2>LED 02: </h2>
+				<p>Funcao: Acender LED azul da Placa</p>
+				<label class="switch">
+					<input type="submit" name="led" value="2">
+				</label>
+			</div>	
+
+			<div class="column">
+				<h2>LED 03: </h2>
+				<p>Funcao: Acender LED vermelho da Placa</p>
+				<label class="switch">
+					<input type="submit" name="led" value="3">
+				</label>
+			</div>
+	
+			<div class="column">
+				<h2>Apagar LEDs: </h2>
+				<p>Funcao: Apagar todos os LEDs da Placa</p>
+				<label class="switch">
+					<input type="submit" name="led" value="4">
+				</label>
+			</div>
+
+
+			<div class="column">
+				<h2>Buzzer: </h2>
+				
+				<form>
+					<div class="col-75">
+						<p>Frequencia A: </p>
+						<input type="submit" name="frequencia" value="1">
+					</div>
+
+					<div class="col-75">
+						<p>Frequencia B: </p>
+						<input type="submit" name="frequencia"  value="2">
+					</div>	
+					
+					<div class="col-75">
+						<p>Desligar: </p>
+						<input type="submit" name="frequencia"  value="3">
+					</div>		
+
+				</form>
+
+			</div>
+			</form>
+
+
+		</body>
+		</html>
