@@ -9,5 +9,7 @@ This API was developed in August 2021 by Bruno Guimarães Bitencourt and Ian Fer
 * Turn on/off all three embedded LEDs
 * Turn on/off one external buzzer with two different pitches
 
+![Alt Text](https://giphy.com/gifs/LF6mrlAjFl3TP9EaCu)
+
 
 [brunogbitencourt@ufmg.br](mailto:brunogbitencourt@ufmg.br), [ianfm@ufmg.br](mailto:ianfm@ufmg.br)
